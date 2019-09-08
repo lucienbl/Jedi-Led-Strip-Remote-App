@@ -1,0 +1,5 @@
+rootProject.name = 'JediLedStripRemote'
+include ':react-native-ir-manager'
+project(':react-native-ir-manager').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-ir-manager/android')
+
+include ':app'
